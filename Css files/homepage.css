@@ -1,11 +1,12 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
+ 
 }
 
-body{
+body {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -13,7 +14,7 @@ body{
     background: #1f242d;
 }
 
-button{
+button {
     position: relative;
     display: inline-block;
     padding: 10px 30px;
@@ -23,20 +24,21 @@ button{
     background: #262c37;
     letter-spacing: 2px;
     font-size: 16px;
-    transform:0.5s ;
+    transform: 0.5s;
+    margin-left: 20px;
 }
 
-button:hover{
+button:hover {
     color: rgba(255, 255, 255, 1);
 }
 
-button span{
+button span {
     display: block;
     position: absolute;
     background: #2894ff;
 }
 
-button span:nth-child(1){
+button span:nth-child(1) {
     left: 0;
     bottom: 0;
     width: 1px;
@@ -46,13 +48,13 @@ button span:nth-child(1){
     transition: transform 0.5s;
 }
 
-button:hover span:nth-child(1){
+button:hover span:nth-child(1) {
     transform: scaleY(1);
     transform-origin: bottom;
     transition: transform 0.5s;
 }
 
-button span:nth-child(2){
+button span:nth-child(2) {
     left: 0;
     bottom: 0;
     width: 100%;
@@ -62,13 +64,13 @@ button span:nth-child(2){
     transition: transform 0.5s;
 }
 
-button:hover span:nth-child(2){
+button:hover span:nth-child(2) {
     transform: scaleX(1);
     transform-origin: left;
     transition: transform 0.5s;
 }
 
-button span:nth-child(3){
+button span:nth-child(3) {
     right: 0;
     bottom: 0;
     width: 1px;
@@ -80,7 +82,7 @@ button span:nth-child(3){
 
 }
 
-button:hover span:nth-child(3){
+button:hover span:nth-child(3) {
     transform: scaleY(1);
     transform-origin: bottom;
     transition: transform 0.5s;
@@ -88,7 +90,7 @@ button:hover span:nth-child(3){
 
 }
 
-button span:nth-child(4){
+button span:nth-child(4) {
     left: 0;
     top: 0;
     width: 100%;
@@ -99,22 +101,22 @@ button span:nth-child(4){
     transition-delay: 0.5s;
 }
 
-button:hover span:nth-child(4){
+button:hover span:nth-child(4) {
     transform: scaleX(1);
     transform-origin: left;
     transition: transform 0.5s;
     transition-delay: 0.5s;
 
 }
-.flex{
+
+.flex {
     display: flex;
 }
 
-.marg{
+.marg {
     margin-left: 50px;
 }
 
-p{
+p {
     color: #2894ff;
 }
-
