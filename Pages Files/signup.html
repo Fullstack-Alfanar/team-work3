@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="/Css files/signuppage.css">
     <title>Sign Up Page</title>
 </head>
 
@@ -19,7 +19,6 @@
                 </td>
                 <td><input class="fname" type="text" name="fname" id="fname"></td>
             </tr>
-
             <tr>
                 <td>
                     <label>Last Name:</label>
@@ -29,11 +28,14 @@
 
             <tr>
                 <td><label>Gender</label></td>
-                <td> <input class="Gende" type="radio" name="gender" id="Gende" value="Male">
-                    <label>Male</label><br>
-                    <input class="Gende" type="radio" name="gender" id="Gende" value="Female">
-                    <label class="Gende">Female</label>
+                <td>
+                    <select name="selectgend" id="selectgend" class="select">
+                        <option class="option" value="">Choose a Gender</option>
+                        <option class="option" value="Mail">Mail</option>
+                        <option class="option" value=" Femail"> Femail</option>
+                    </select>
                 </td>
+
             </tr>
             <tr>
                 <td>
@@ -86,14 +88,17 @@
                         <option value="Carmiel "> Carmiel</option>
                         <option value="Tamra "> Tamra</option>
                         <option value="Der El Asad ">Der El Asad</option>
-
                     </select>
                 </td>
             </tr>
+
+
+
+
         </table>
-        <div><button type="submit" id="Submit" onclick="datafun()" class="Submit">Sign Up</button></div>
+        <div><button type="submit" id="Submit" class="Submit">Sign Up</button></div>
     </div>
-    <script src="/script.js"></script>
+    <script src="/javascript/javascript.js"></script>
 </body>
 
 </html>
