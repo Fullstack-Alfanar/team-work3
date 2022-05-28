@@ -1,0 +1,73 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+
+body,
+html {
+    height: 100%;
+    background-image: url(/imgs/Illustration\ 4.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+h1 {
+    text-align: center;
+    color: blue;
+    font-weight: bolder;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.main-div {
+    margin-left: 600px;
+    border: 1px solid rgba(0, 0, 0, 0.06);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    padding: 20px ;
+    width: 600px
+}
+
+.main-contaner {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 50px;
+    color: black;
+}
+
+.main-contaner .input1 {
+    margin-bottom: 30px;
+}
+
+.main-contaner .input1 label {
+    padding-right: 28px;
+}
+
+.main-contaner .input1 input {
+    border: solid black;
+    padding: 5px 20px;
+}
+
+.main-contaner .input2 input {
+    border: solid black;
+    padding: 5px 20px;
+}
+
+.inputs-contaner {
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+.inputs-contaner button {
+    margin: 5px;
+}
+
+.signup-contaner {
+    text-align: center;
+    color: rgb(23, 218, 218);
+    margin-top: 20px;
+
+}
