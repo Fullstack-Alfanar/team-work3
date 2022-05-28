@@ -17,7 +17,7 @@ h1{
   }
   @keyframes headers {
     0% {
-      color: gold;
+      color: rgb(221, 199, 72);
     }
     25%{
       color: blue;
