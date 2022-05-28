@@ -28,7 +28,7 @@ button{
 }
 
 button:hover{
-    color: gold;
+    color: rgb(236, 203, 13);
 }
 
 button span{
