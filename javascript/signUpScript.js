@@ -78,6 +78,7 @@ function Emailtovalidate(mail) {
   }
 }
 
+
 // check if user enter a true age:
 function checkage(age) {
   if (age < 12 || age > 100) {
