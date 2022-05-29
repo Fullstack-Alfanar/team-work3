@@ -6,7 +6,7 @@ if(!localStorage.getItem('my_personal_data')){
     localStorage.setItem('my_personal_data', document.getElementById('changePass').value);
     alert('Password changed');
     
-  }
+  }g
   
   function loginBtnClick(){
     if(document.getElementById('login').value == localStorage.getItem('my_personal_data')){
