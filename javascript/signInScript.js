@@ -2,8 +2,7 @@
 
 let arr = [];
 
-document.getElementById("login").addEventListener("click", ()=>
-{
+document.getElementById("login").addEventListener("click", () => {
   let mailInput = document.getElementById("mailInput");
   let passwordInput = document.getElementById("passwordInput");
   if (mailInput.value == "") {
@@ -13,7 +12,7 @@ document.getElementById("login").addEventListener("click", ()=>
   } else {
     setitem();
     checkPassMail();
-    
+
   }
 
   function setitem() {
@@ -47,6 +46,7 @@ document.getElementById("login").addEventListener("click", ()=>
     }
   }
   mailInput.value == "";
-    passwordInput.value == "";
+  passwordInput.value == "";
 });
- 
+
+

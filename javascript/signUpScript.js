@@ -40,6 +40,7 @@ document.getElementById("Submit").addEventListener("click", () => {
     };
     arr.push(obj);
     saveLocal();
+    window.location.replace("../signinpage.html");
   }
   // reset inputs value;
   firstname.value = "";
@@ -79,7 +80,7 @@ function Emailtovalidate(mail) {
 
 // check if user enter a true age:
 function checkage(age) {
-  if (age < 0 || age > 100) {
+  if (age < 12 || age > 100) {
     alert("enter a true age");
     return false;
   }
@@ -103,12 +104,3 @@ let passwordInput = document.getElementById("passwordInput");
 
 
 
-function checkPassMail() {
-  for (let i = 0; i < arr.length; i++) {
-    if (mailInput.value == arr[i].email && passwordInput.value == arr[i].pass) {
-      console.log("ok");
-    } else {
-      console.log("wrong");
-    }
-  }
-}
