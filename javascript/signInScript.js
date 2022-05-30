@@ -37,7 +37,7 @@ document.getElementById("login").addEventListener("click", () => {
     }
     for (let i = 0; i < IsCorrect.length; i++) {
       if (IsCorrect[i] == true) {
-        window.location.replace("/wellcom.html");
+        window.location.replace("./wellcom.html");
         break;
       } else {
         alert("wrong");
