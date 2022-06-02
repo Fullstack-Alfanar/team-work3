@@ -38,7 +38,7 @@ document.getElementById("btn").addEventListener("click", ()=>
     }
     for (let i = 0; i < IsCorrect.length; i++) {
       if (IsCorrect[i] == true) {
-        window.location.replace("/changepassword.html");
+        window.location.replace("./changepassword.html");
         break;
       } else {
         alert("wrong");
